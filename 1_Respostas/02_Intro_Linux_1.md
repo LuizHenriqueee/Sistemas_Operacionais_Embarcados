@@ -14,63 +14,62 @@ que formata totalmente o PC.
 6. Quais botões do teclado apresentam instruções escritas anteriormente?
 - As setas para cima ou para baixo.
 7. Apresente os respectivos comandos no terminal para:
-  (a) Obter mais informações sobre um comando.
-
+(a) Obter mais informações sobre um comando.
 - **$ man comando**.
 
-  (b) Apresentar uma lista com os arquivos dentro de uma pasta.
+(b) Apresentar uma lista com os arquivos dentro de uma pasta.
 - **$ ls**.
 
-  (c) Apresentar o caminho completo da pasta.
+(c) Apresentar o caminho completo da pasta.
 - **$ pwd**
 
-  (d) Trocar de pasta.
+(d) Trocar de pasta.
 - **$ cd [diretorio/]**.
 
-  (e) Criar uma pasta.
+(e) Criar uma pasta.
 - **$ mkdir nome_da_pasta**.
 
-  (f) Apagar arquivos definitivamente.
+(f) Apagar arquivos definitivamente.
 - **$ rm nome_do_arquivo**.
 
-  (g) Apagar pastas definitivamente.
+(g) Apagar pastas definitivamente.
 - **$ rmdir nome_da_pasta**.
 
-  (h) Copiar arquivos.
+(h) Copiar arquivos.
 - **$ cp nome_do_arquivo**.
 
-  (i) Copiar pastas.
+(i) Copiar pastas.
 - **$ cp nome_da_pasta**.
 
-  (j) Mover arquivos.
+(j) Mover arquivos.
 - **$ mv nome_do_arquivo**.
 
-  (k) Mover pastas.
+(k) Mover pastas.
 - **$ mv nome_da_pasta**.
 
-  (l) Renomear pastas.
+(l) Renomear pastas.
 - **$ mv nome_da_pasta pasta_atual/**.
 
-  (m) Apresentar o conteúdo de um arquivo.
+(m) Apresentar o conteúdo de um arquivo.
 - **$ cat nome_do_arquivo.txt**.
 
-  (n) Apresentar o tipo de um arquivo.
+(n) Apresentar o tipo de um arquivo.
 - **$ file arquivo**.
 
-  (o) Limpar a tela do terminal.
+(o) Limpar a tela do terminal.
 - **$ clear**.
 
-  (p) Encontrar ocorrências de palavras-chave em um arquivo-texto.
--  **$ grep [palavra_chave] texto.txt** .
+(p) Encontrar ocorrências de palavras-chave em um arquivo-texto.
+- **$ grep [palavra_chave] texto.txt** .
 
-  (q) Ordenar informações em um arquivo-texto.
--  **$ sort [opções] [arquivo]**
+(q) Ordenar informações em um arquivo-texto.
+- **$ sort [opções] [arquivo]**
 
-  (r) Substituir ocorrências de palavras-chave em um arquivo-texto.
--  **$ sed -i 's/original/nova/g' arquivo**
+(r) Substituir ocorrências de palavras-chave em um arquivo-texto.
+- **$ sed -i 's/original/nova/g' arquivo**
 
-  (s) Conferir se dois arquivos são iguais.
+(s) Conferir se dois arquivos são iguais.
 - **$ diff arquivo1.txt arquivo2.txt**
 
-  (t) Escrever algo na tela.
+(t) Escrever algo na tela.
 - **$ echo Hello World!**.
