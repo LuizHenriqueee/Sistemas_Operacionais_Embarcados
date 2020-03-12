@@ -15,42 +15,62 @@ que formata totalmente o PC.
 - As setas para cima ou para baixo.
 7. Apresente os respectivos comandos no terminal para:
   (a) Obter mais informações sobre um comando.
+
 - **$ man comando**.
+
   (b) Apresentar uma lista com os arquivos dentro de uma pasta.
 - **$ ls**.
+
   (c) Apresentar o caminho completo da pasta.
 - **$ pwd**
+
   (d) Trocar de pasta.
 - **$ cd [diretorio/]**.
+
   (e) Criar uma pasta.
 - **$ mkdir nome_da_pasta**.
+
   (f) Apagar arquivos definitivamente.
 - **$ rm nome_do_arquivo**.
+
   (g) Apagar pastas definitivamente.
 - **$ rmdir nome_da_pasta**.
+
   (h) Copiar arquivos.
 - **$ cp nome_do_arquivo**.
+
   (i) Copiar pastas.
 - **$ cp nome_da_pasta**.
+
   (j) Mover arquivos.
 - **$ mv nome_do_arquivo**.
+
   (k) Mover pastas.
 - **$ mv nome_da_pasta**.
+
   (l) Renomear pastas.
 - **$ mv nome_da_pasta pasta_atual/**.
+
   (m) Apresentar o conteúdo de um arquivo.
 - **$ cat nome_do_arquivo.txt**.
+
   (n) Apresentar o tipo de um arquivo.
 - **$ file arquivo**.
+
   (o) Limpar a tela do terminal.
 - **$ clear**.
+
   (p) Encontrar ocorrências de palavras-chave em um arquivo-texto.
 -  **$ grep [palavra_chave] texto.txt** .
+
   (q) Ordenar informações em um arquivo-texto.
 -  **$ sort [opções] [arquivo]**
+
   (r) Substituir ocorrências de palavras-chave em um arquivo-texto.
 -  **$ sed -i 's/original/nova/g' arquivo**
+
   (s) Conferir se dois arquivos são iguais.
 - **$ diff arquivo1.txt arquivo2.txt**
+
   (t) Escrever algo na tela.
 - **$ echo Hello World!**.
